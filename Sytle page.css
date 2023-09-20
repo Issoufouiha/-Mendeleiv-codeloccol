@@ -1,0 +1,168 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    margin: auto;
+}
+h1{
+    font-size: 15px;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+.violet{
+    background:#877ab8 ;
+}
+.Autre{
+    background:#5c9584 ;
+}
+.vert{
+    background:#b5e1ac ;
+}
+.orange{
+    background:#ee9b88 ;
+}
+.blue{
+    background:#7eb0cf ;
+}
+.jaune{
+    background:#f2fac9 ;
+}
+.orangeC{
+    background:#f0caa6 ;
+}
+.jauneF{
+    background: #fdf0c5;
+}
+.rose C{
+    background:#ee96a1 ;
+}
+.rose{
+    background:#be6895 ;
+}
+.separation{
+    margin-top: 20px;
+}
+.V{
+    height: 40px;
+}
+table tr td{
+    border: 2px solid white;
+    padding-top: 5px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width:1580px) {
+    table tr td{
+        font-size: 12px;
+    }
+    img{
+        height: 120px;
+        width: 120px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:1220px) {
+    table tr td{
+        font-size: 11px;
+    }
+    img{
+        height: 110px;
+        width: 110px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:1120px) {
+    table tr td{
+        font-size: 10px;
+    }
+    img{
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:1030px) {
+    table tr td{
+        font-size: 9px;
+    }
+    img{
+        height: 90px;
+        width: 90px;
+        border-radius: 100%;
+    }
+
+}
+@media screen and (max-width:945px) {
+    table tr td{
+        font-size: 8px;
+    }
+    img{
+        height: 80px;
+        width: 80px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:855px) {
+    table tr td{
+        font-size: 7px;
+    }
+    img{
+        height: 70px;
+        width: 70px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:770px) {
+    table tr td{
+        font-size: 6px;
+    }
+    img{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:665px) {
+    table tr td{
+        font-size: 5px;
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:590px) {
+    table tr td{
+        font-size: 4px;
+    }
+    img{
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:500px) {
+    table tr td{
+        font-size: 2px;
+    }
+    img{
+        height: 30px;
+        width: 30px;
+        border-radius: 100%;
+    }
+}
